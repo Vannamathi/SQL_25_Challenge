@@ -1,0 +1,13 @@
+📅 Day 3 – 25 Days SQL Challenge
+ 🔍 Topic: ORDER BY Clause
+
+Question:
+ List all employees in ascending order of their salary.
+QUERY: SELECT * 
+ FROM employees 
+ ORDER BY salary ASC;
+
+🧠 Explanation:
+ ORDER BY is used to sort query results.
+ASC → Ascending (default)
+DESC → Descending
