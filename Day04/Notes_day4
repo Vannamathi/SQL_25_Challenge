@@ -1,0 +1,18 @@
+📅 Day 4 – 25 Days SQL Challenge
+ 🔍 Topic: DISTINCT & LIMIT
+
+-- Get unique departments 😎 
+SELECT DISTINCT department 
+FROM employees;
+
+-- Get first 5 employees 😎 
+SELECT * 
+FROM employees 
+LIMIT 5;
+
+🧠 Explanation:
+DISTINCT → Removes duplicate values from the result set and returns only unique entries. This is useful when you want to see a clean list without repetitions.
+
+LIMIT → Controls how many rows are shown. Ideal for previewing a small portion of large tables without loading everything.
+
+These two commands are often used together to quickly review unique data samples from large datasets.
