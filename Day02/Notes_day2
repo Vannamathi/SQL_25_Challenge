@@ -1,0 +1,10 @@
+📌 Topic: WHERE Clause – This is used to filter rows based on a specific condition. It helps us retrieve only the data that meets certain criteria instead of fetching everything.
+
+💻 Example Query:
+SELECT * 
+FROM EMPLOYEES
+WHERE SALARY > 50000;
+
+📝 Explanation:
+ This query will display only those employees whose Salary is greater than 50,000.
+ It is useful when we want to analyze a specific subset of our data.
