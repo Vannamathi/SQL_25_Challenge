@@ -1,0 +1,13 @@
+# Day 1 Notes
+
+ Topic: SELECT Basics
+
+Today I’m starting my 25-day SQL journey to strengthen my skills and share daily learnings.
+Task: Fetch all records from the employees table.
+
+QUERY : SELECT * FROM employees;
+
+🧠 Explanation:
+ SELECT * retrieves all columns and all rows from the given table.
+
+It’s the simplest query to view complete table data and is often used for a quick look at the dataset.
