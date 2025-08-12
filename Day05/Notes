@@ -1,0 +1,75 @@
+📅 Day 5 – BETWEEN, IN, LIKE
+25 Days SQL Challenge
+
+📝 Overview
+Today we explored three important SQL filtering clauses:
+
+BETWEEN – Filter results within a specified range (inclusive).
+
+IN – Match a value from a given list of options.
+
+LIKE – Search for values matching a specific pattern.
+
+📌 Syntax & Examples
+1️⃣ BETWEEN
+Syntax:
+
+sql
+Copy code
+SELECT column_name
+FROM table_name
+WHERE column_name BETWEEN value1 AND value2;
+Example:
+
+sql
+Copy code
+SELECT *
+FROM employees
+WHERE salary BETWEEN 40000 AND 60000;
+Fetches employees with salary from 40,000 to 60,000 (including both values).
+
+2️⃣ IN
+Syntax:
+
+sql
+Copy code
+SELECT column_name
+FROM table_name
+WHERE column_name IN (value1, value2, ...);
+Example:
+
+sql
+Copy code
+SELECT *
+FROM employees
+WHERE department IN ('HR', 'IT', 'Finance');
+Fetches employees working in HR, IT, or Finance.
+
+3️⃣ LIKE
+Syntax:
+
+sql
+Copy code
+SELECT column_name
+FROM table_name
+WHERE column_name LIKE pattern;
+Example:
+
+sql
+Copy code
+SELECT *
+FROM employees
+WHERE name LIKE 'A%';
+Fetches employees whose names start with 'A'.
+
+% → Matches multiple characters
+
+_ → Matches exactly one character
+
+💡 Interview Tips
+BETWEEN is inclusive: BETWEEN 10 AND 20 includes both 10 and 20.
+
+IN is cleaner than multiple OR conditions.
+
+LIKE is widely used for search features — % is your wildcard friend.
+
