@@ -18,7 +18,7 @@ SELECT e.emp_name, d.dept_name
 FROM employees AS e
 JOIN departments AS d ON e.dept_id = d.dept_id;
 
-## 💡 Notes
+# 💡 Notes
 AS is optional in MySQL → you can just write emp_name Employee.
 Aliases only last for the query; they do not rename the actual column/table.
 Very useful for clean reports and when writing joins.
