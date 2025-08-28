@@ -28,12 +28,31 @@ WHERE salary IN (
     WHERE dept_id = 20
 );
 
-**🎯 Interview Tips:**
-Common Mistake → Using = instead of IN when multiple rows are returned.
-Optimization → Check if EXISTS is better than IN in certain queries.
-Practice → Always test inner queries separately before combining.
+## 📌 Key Takeaways
+- **Single-column subqueries** return values for one column and are often used with `IN`, `=`, `>`, `<` operators.
+- **Multi-column subqueries** return tuples (sets of values) and are used with row-wise comparison `(col1, col2)`.
+- Subqueries can be nested and used in `WHERE`, `FROM`, and `SELECT` clauses.
 
-###**🔑 Key Takeaway**
 
-Subqueries are powerful tools to break down complex problems into smaller, manageable steps.
-Understanding when to use single-row, multiple-row, and multiple-column subqueries is a key SQL interview skill.
+---
+
+
+## 🎯 Interview Tips
+- Be clear on the difference between **single-row, multiple-row, and multiple-column subqueries**.
+- Employers often ask: *“How would you find employees earning the same as another employee?”* → This is a **correlated or multi-column subquery**.
+- Always consider **performance**: subqueries can be replaced with **JOINS** in many cases.
+
+
+---
+
+
+## 💡 Insights for Quick Learning
+- Practice writing **real-world queries** like salary comparison, department-based filtering, and matching employee attributes.
+- Understand how **subqueries differ from JOINs** → JOINs combine data, while subqueries filter based on another query.
+- Try converting a subquery into a JOIN query to strengthen your SQL logic.
+
+
+---
+
+
+✨ Day 17 complete! Excited to keep building my SQL muscle, one query at a time 💪
