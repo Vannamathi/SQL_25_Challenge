@@ -27,9 +27,8 @@ WHERE salary IN (
     FROM employees 
     WHERE dept_id = 20
 );
----
 
-## 📌 Key Takeaways
+## ** 📌 Key Takeaways**
 - **Single-column subqueries** return values for one column and are often used with `IN`, `=`, `>`, `<` operators.
 - **Multi-column subqueries** return tuples (sets of values) and are used with row-wise comparison `(col1, col2)`.
 - Subqueries can be nested and used in `WHERE`, `FROM`, and `SELECT` clauses.
