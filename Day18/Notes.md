@@ -11,7 +11,7 @@ Instead of just returning raw values, you can make your queries **more meaningfu
 · CASE is used to implement if-else logic inside SQL queries.
 · Always include an ELSE clause to handle unexpected values.
 · Great for data categorization, labeling, and business reporting.
-· Makes results easier to interpret for non-technical stakeholders
+Makes results easier to interpret for non-technical stakeholders
 
 ## 💡 Interview Tips
 
